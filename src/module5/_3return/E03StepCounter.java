@@ -9,10 +9,16 @@ package module5._3return;
 public class E03StepCounter {
     
 	//add convertToMiles method here
+    public static double convertToMiles(int steps) {
+        double milesWalked = (double)steps/2000;
+        return(milesWalked);
+    }
 
     public static void main(String[] args) {
-       
-    	//System.out.println("500 steps is equal to " + convertToMiles(500) + " miles");
+        System.out.println("Miles walked: " + convertToMiles(7000));
+        System.out.println("500 steps is equal to " + convertToMiles(500) + " miles");
+        System.out.println("2000 steps is equal to " + convertToMiles(2000) + " miles");
+        System.out.println("3000 steps is equal to " + convertToMiles(3000) + " miles");
        //add 2 more method calls here for 2000 and 3000 steps.
 
     }

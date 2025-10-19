@@ -9,7 +9,7 @@ The methods you should write:
 
  * Now go back and rewrite your first method by having it call the second one.
 
- * Take a look at Java’s `split method, that splits a ``String`` into an array containing the parts split by the specified regular expression.
+ * Take a look at Javaï¿½s `split method, that splits a ``String`` into an array containing the parts split by the specified regular expression.
 
 	Here, assume the regular expression is simply " ", so that the input String is split into words.
 
